@@ -53,7 +53,7 @@ function setBackground() {
             setTimeout("Int2=setInterval(followUp,wait)", 3000);
         } else {
             Int1 = setInterval(move, wait);
-            Int2 = setInterval(izsur, wait);
+            Int2 = setInterval(followUp, wait);
         }
 
         if (document.getElementById("BtnStop"))
